@@ -135,4 +135,9 @@ button {
     opacity: 0.9;
   }
 
-
+.initial-guidance{
+    opacity: 0.3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

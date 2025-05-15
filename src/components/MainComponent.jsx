@@ -44,7 +44,7 @@ export default function MainComponent() {
                 />
                 <button>Add ingredient</button>
             </form>
-
+            {ingredients.length === 0 && <p className="initial-guidance">Enter atleast 4 ingredients one by one!</p> }
             {ingredients.length > 0 &&
                 <IngredientsList
                     ingredients={ingredients}
